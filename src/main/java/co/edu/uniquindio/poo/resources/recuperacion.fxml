@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="132.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="99.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recuperación">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="52.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtUsuario" layoutX="111.0" layoutY="50.0" prefHeight="25.0" prefWidth="143.0" />
+      <Button fx:id="btnContinuar" layoutX="107.0" layoutY="90.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="68.0" text="Continuar">
+         <font>
+            <Font name="Bell MT" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

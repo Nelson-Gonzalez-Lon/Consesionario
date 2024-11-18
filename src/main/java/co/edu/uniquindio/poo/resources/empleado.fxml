@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="168.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empleado">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnRegistroVehic" layoutX="126.0" layoutY="76.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" text="Registro Vehículo">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRegistroClien" layoutX="126.0" layoutY="125.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" text="Registro Cliente">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnVenderVehic" layoutX="126.0" layoutY="173.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" text="Vender Vehículo">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnComprarVehic" layoutX="126.0" layoutY="221.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" text="Comprar Vehículo">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAlquilarVehic" layoutX="126.0" layoutY="269.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="146.0" text="Alquilar Vehículo">
+         <font>
+            <Font name="Bell MT" size="13.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tablaEmpleado" layoutX="53.0" layoutY="315.0" prefHeight="178.0" prefWidth="292.0">
+        <columns>
+          <TableColumn fx:id="columnaCodigo" prefWidth="75.0" text="Código" />
+          <TableColumn fx:id="ColumnaTipo" prefWidth="75.0" text="Tipo" />
+            <TableColumn fx:id="ColumnaMarca" prefWidth="75.0" text="Marca" />
+            <TableColumn fx:id="ColumnaEstado" prefWidth="75.0" text="Estado" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnRegresar" layoutX="168.0" layoutY="507.0" mnemonicParsing="false" text="Regresar">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
