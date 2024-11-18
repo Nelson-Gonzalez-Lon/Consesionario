@@ -2,12 +2,12 @@ package co.edu.uniquindio.poo.model;
 
 public class Usuario {
 
-    public String nombre;
-    public String id;
-    public String clave;
-    public String correo;
-    public String preguntaRecuperación;
-    public String palabraRecuperación;
+    private String nombre;
+    private String id;
+    private String clave;
+    private String correo;
+    private String preguntaRecuperación;
+    private String palabraRecuperación;
 
     public Usuario(String nombre, String id, String clave, String correo, String preguntaRecuperación,
             String palabraRecuperación) {
