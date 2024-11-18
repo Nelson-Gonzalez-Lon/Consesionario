@@ -2,14 +2,14 @@ package co.edu.uniquindio.poo.model;
 
 public class Vehiculo {
 
-    public String marca;
-    public String modelo;
-    public String codigo;
-    public boolean nuevo;
-    public int cambios;
-    public int velocidadMax;
-    public Transaccion transaccion;
-    public Transmision tipoTransmision;
+    protected String marca;
+    protected String modelo;
+    protected String codigo;
+    protected boolean nuevo;
+    protected int cambios;
+    protected int velocidadMax;
+    protected Transaccion transaccion;
+    protected Transmision tipoTransmision;
 
     public Vehiculo(String marca, String modelo, String codigo, boolean nuevo, int cambios, int velocidadMax,
             Transaccion transaccion, Transmision tipoTransmision) {

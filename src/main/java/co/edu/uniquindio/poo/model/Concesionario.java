@@ -38,4 +38,16 @@ public class Concesionario {
         this.listaVehiculos = listaVehiculos;
     }
 
+    //CRUD Administrador
+
+    public Administrador buscarAdministrados(Administrador administrador){
+        Administrador administradorEncontrado = null;
+        for(Usuario usuarioTomado :  listaUsuarios){
+            Administrador administradorTomado = (Administrador)usuarioTomado;
+            if (administradorTomado.getId().equals(administrador.getId())) {
+                return administradorEncontrado;
+            }
+        }
+        return administradorEncontrado;
+    }
 }
